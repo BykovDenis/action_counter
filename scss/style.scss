@@ -80,12 +80,11 @@ body{
               
         outline: 1px solid $color-gray;
         padding: 12.5px 0 12.5px 5px;        
-        
          
-        text-align: center;
+        
         font: bold #{$font-size-day}/#{$line-height-day} $font-family-bold;
         color: $color-white; 
-        letter-spacing: 0.5rem;
+        letter-spacing: 20px;
         text-shadow: 2px 1px 2px $color-brown;
                     
         background-color: $color-field;
@@ -163,7 +162,7 @@ body{
         
         background-color: $color-field;   
         background-image: linear-gradient($color-grad1 0%, $color-grad2 15%, $color-grad3 77%,$color-grad4 90%, $color-grad5 100%);         
-        letter-spacing: 0.4rem;
+        letter-spacing: 10px;
         text-shadow: 1px 1px 2px $color-brown;
         box-shadow: 0 0 1px 1px $color-black;
         border-radius: 3px;   
