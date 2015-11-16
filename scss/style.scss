@@ -37,8 +37,6 @@ body{
     
     &__content{
         
-        
-        
         border-radius: 5px;      
         padding-top: 17px;
         box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
@@ -46,9 +44,8 @@ body{
         background-image: linear-gradient($color-gray-grad10 0%, $color-gray-grad11 15%, $color-gray-grad12 33%,
                                           $color-gray-grad13 60%, $color-gray-grad14 80%, $color-gray-grad15 100%  );
         
-    }          
+    }         
   
-        
 }
 
  .date{     
@@ -66,7 +63,8 @@ body{
         margin: 0;     
     }
     
-    &__layout{        
+    &__layout{   
+        position: relative;
         padding:7px;
         float:left;
         margin-left: 7px;          
@@ -101,7 +99,7 @@ body{
      &__border{
          position: absolute;             
          display: inline-block;
-         top:0px;
+         top:7px;
          transform: translateX(-50%);
          left:50%;
          height: 100px;
@@ -117,6 +115,7 @@ body{
     
     &__layout{
         
+        position: relative;
         padding:4px 5px;                
         background-color: $color-gray; 
         background-image: linear-gradient($color-gray-grad1 0%, $color-gray-grad2 20%, $color-gray-grad3 50%, 
@@ -126,7 +125,7 @@ body{
     &__border{
          position: absolute;             
          display: inline-block;
-         top:0px;
+         top:4px;
          transform: translateX(-50%);
          left:50%;
          height: 50px;

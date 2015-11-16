@@ -13,12 +13,10 @@
             <div class="counter__content clearfix">    
                 <div class="date clearfix">
                    <div class="date__layout">
-                        <div class="date__day">
-                            35
-                       <div class="date__border">
-                       </div>                            
+                        <div id="day" class="date__day" > 00                                                     
                         </div> 
-
+                       <div class="date__border">
+                       </div>  
                     </div>
                     <p>дней</p>
                 </div>
@@ -26,31 +24,31 @@
                     <ul>
                     <li>
                        <div class="time__layout">
-                            <div class="time__item">
-                            24
-                           <div class="time__border">
-                           </div>   
+                            <div id="hour" class="time__item">
+                            00 
                             </div>
+                           <div class="time__border">
+                           </div>                              
                         </div>
                         <p>часов</p>
                     </li>
                     <li>
                        <div class="time__layout">
-                            <div class="time__item">
-                                19
-                                <div class="time__border">
-                                </div>   
+                            <div id="minute" class="time__item">
+                                00 
                             </div>
+                            <div class="time__border">
+                            </div>                              
                         </div>
                             <p>минут</p>
                     </li>
                     <li>
                         <div class="time__layout">
-                            <div class="time__item">
-                            56
-                            <div class="time__border">
-                            </div>                               
+                            <div id="second" class="time__item">
+                            00                              
                             </div> 
+                            <div class="time__border">
+                            </div>                             
                         </div>
                         <p>секунд</p>
                     </li>
@@ -58,5 +56,6 @@
                 </div>
             </div>
         </article>
+        <script src="js/script.js"></script>
     </body>
 </html>
