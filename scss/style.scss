@@ -1,0 +1,184 @@
+@import "variables.scss";
+
+@font-face{
+    font-family: "MyriadPro-Semibold";
+    src: url("../fonts/MyriadPro-Semibold.otf");
+}
+
+@font-face{
+    font-family: "MyriadPro-Bold";
+    src: url("../fonts/MyriadPro-Bold.otf");
+}
+
+
+body{
+    width: 100%;    
+}
+
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.counter{
+
+    width: $width;
+    
+    margin: 50px auto;       
+
+    &__header{
+        
+        font: normal #{$font-size-h2} / #{$line-height-h2} $font-family-bold;
+        padding: 3px 21px 10px 7px;  
+        text-transform: uppercase;
+        
+    }
+    
+    &__content{
+        
+        
+        
+        border-radius: 5px;      
+        padding-top: 17px;
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+        background-color: $color-gray;
+        background-image: linear-gradient($color-gray-grad10 0%, $color-gray-grad11 15%, $color-gray-grad12 33%,
+                                          $color-gray-grad13 60%, $color-gray-grad14 80%, $color-gray-grad15 100%  );
+        
+    }          
+  
+        
+}
+
+ .date{     
+     
+    text-align: right; 
+    margin-bottom: 10px;
+    padding-left: 7px;
+
+    
+    
+    p{
+        font: normal #{$font-size}/#{$line-height} $font-family-semibold;  
+        color: $color-black;
+        padding: 44px 15px 44px 0;
+        margin: 0;     
+    }
+    
+    &__layout{        
+        padding:7px;
+        float:left;
+        margin-left: 7px;          
+        background-color: $color-gray;
+        background-image: linear-gradient($color-gray-grad1 0%, $color-gray-grad2 20%, $color-gray-grad3 50%, 
+            $color-gray-grad4 70%, $color-gray-grad5 100%);
+    }
+    
+    &__day{       
+        
+        position: relative;
+        width:  110px;       
+              
+        outline: 1px solid $color-gray;
+        padding: 12.5px 0 12.5px 5px;        
+        
+         
+        text-align: center;
+        font: bold #{$font-size-day}/#{$line-height-day} $font-family-bold;
+        color: $color-white; 
+        letter-spacing: 0.5rem;
+        text-shadow: 2px 1px 2px $color-brown;
+                    
+        background-color: $color-field;
+        background-image: linear-gradient($color-grad1 0%, $color-grad2 15%, $color-grad3 77%,$color-grad4 90%, $color-grad5 100%);      
+        /*border: 2px solid $color-black; */
+        box-shadow: 0 0 2px 2px $color-black;
+        border-radius: 5px;        
+        
+    }
+     
+     &__border{
+         position: absolute;             
+         display: inline-block;
+         top:0px;
+         transform: translateX(-50%);
+         left:50%;
+         height: 100px;
+         border-right: 3px solid $color-black;
+     }
+}
+
+
+.time {
+    
+    padding-bottom: 15px;
+    padding-left: 5px;
+    
+    &__layout{
+        
+        padding:4px 5px;                
+        background-color: $color-gray; 
+        background-image: linear-gradient($color-gray-grad1 0%, $color-gray-grad2 20%, $color-gray-grad3 50%, 
+            $color-gray-grad4 70%, $color-gray-grad5 100%);
+    }
+    
+    &__border{
+         position: absolute;             
+         display: inline-block;
+         top:0px;
+         transform: translateX(-50%);
+         left:50%;
+         height: 50px;
+         border-right: 2px solid $color-black;
+     }
+  
+    ul{
+        
+        list-style-type: none;   
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+                
+        
+    }
+    
+    li{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    li:last-of-type{
+        margin-right: 0;
+    }    
+    
+    &__item{
+        
+        position: relative;
+        width: 50px;       
+        
+        font: bold #{$font-size-time}/#{$line-height-time} $font-family-bold; 
+        color: $color-white;        
+        padding: 7.5px 0;
+        padding-left: 3px;
+        
+        background-color: $color-field;   
+        background-image: linear-gradient($color-grad1 0%, $color-grad2 15%, $color-grad3 77%,$color-grad4 90%, $color-grad5 100%);         
+        letter-spacing: 0.4rem;
+        text-shadow: 1px 1px 2px $color-brown;
+        box-shadow: 0 0 1px 1px $color-black;
+        border-radius: 3px;   
+        
+        
+    }
+    
+    li >p{
+        font: bold #{$font-size-label}/#{$line-height-label} $font-family-semibold;
+        color: $color-black;  
+        margin: 0;
+        text-align: center;   
+        padding-top: 5px;
+    }  
+    
+
+}
