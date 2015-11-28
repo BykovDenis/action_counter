@@ -1,14 +1,8 @@
-<html lang="ru">
-    <head>
-       <meta charset="utf-8">
-        <title>Счетчик для акции</title>
-        <link href="css/normalize.css" rel="stylesheet"></link>
-        <link href="css/style.css" rel="stylesheet"></link>
-    </head>
-    <body>
-        <article class="counter">
+	<link href="css/normalize.css" rel="stylesheet"></link>
+	<link href="css/style.css" rel="stylesheet"></link>        
+		<article class="counter">
             <h2 class="counter__header clearfix">
-                До конца акции осталось:
+                До Нового года осталось:
             </h2>        
             <div class="counter__content clearfix">    
                 <div class="date clearfix">
@@ -57,5 +51,3 @@
             </div>
         </article>
         <script src="js/script.js"></script>
-    </body>
-</html>

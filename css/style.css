@@ -19,7 +19,7 @@ body {
 }
 
 .counter {
-  width: 220px;
+  width: 200px;
   margin: 50px auto;
 }
 
@@ -40,7 +40,7 @@ body {
 .date {
   text-align: right;
   margin-bottom: 10px;
-  padding-left: 7px;
+  padding-left: 0px;
 }
 
 .date p {
@@ -61,12 +61,12 @@ body {
 
 .date__day {
   position: relative;
-  width: 110px;
+  width: 100px;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   padding: 12.5px 0 12.5px 5px;
   font: bold 75px/75px "MyriadPro-Bold", "Arial", "sans-serif";
   color: #ffffff;
-  letter-spacing: 20px;
+  letter-spacing: 10px;
   text-shadow: 2px 1px 2px #544300;
   background-color: #f18d07;
   background-image: linear-gradient(#ed7611 0%, #fbce00 15%, #cd6301 77%, #ed9300 90%, #ee820d 100%);
@@ -87,7 +87,6 @@ body {
 
 .time {
   padding-bottom: 15px;
-  padding-left: 5px;
 }
 
 .time__layout {
@@ -129,7 +128,6 @@ body {
   font: bold 35px/35px "MyriadPro-Bold", "Arial", "sans-serif";
   color: #ffffff;
   padding: 7.5px 0;
-  padding-left: 3px;
   background-color: #f18d07;
   background-image: linear-gradient(#ed7611 0%, #fbce00 15%, #cd6301 77%, #ed9300 90%, #ee820d 100%);
   letter-spacing: 10px;

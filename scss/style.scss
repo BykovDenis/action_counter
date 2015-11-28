@@ -52,7 +52,7 @@ body{
      
     text-align: right; 
     margin-bottom: 10px;
-    padding-left: 7px;
+    padding-left: 0px;
 
     
     
@@ -76,7 +76,7 @@ body{
     &__day{       
         
         position: relative;
-        width:  110px;       
+        width:  100px;       
               
         outline: 1px solid $color-gray;
         padding: 12.5px 0 12.5px 5px;        
@@ -84,7 +84,7 @@ body{
         
         font: bold #{$font-size-day}/#{$line-height-day} $font-family-bold;
         color: $color-white; 
-        letter-spacing: 20px;
+        letter-spacing: 10px;
         text-shadow: 2px 1px 2px $color-brown;
                     
         background-color: $color-field;
@@ -109,8 +109,7 @@ body{
 
 .time {
     
-    padding-bottom: 15px;
-    padding-left: 5px;
+    padding-bottom: 15px;    
     
     &__layout{
         
@@ -157,8 +156,7 @@ body{
         
         font: bold #{$font-size-time}/#{$line-height-time} $font-family-bold; 
         color: $color-white;        
-        padding: 7.5px 0;
-        padding-left: 3px;
+        padding: 7.5px 0;        
         
         background-color: $color-field;   
         background-image: linear-gradient($color-grad1 0%, $color-grad2 15%, $color-grad3 77%,$color-grad4 90%, $color-grad5 100%);         
